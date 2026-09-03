@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home Page Testing</title>
-        <head>
-        <body>
-            <h2>MIS 310</h2>
-            <p>Isley L Vaughn</p>
-        </body>
+    <head></head>
+    <title>Hello, there!</title>
+
+    <h1>Welcome to the Test Home Page for the Creative Portfolio Guide Project!</h1>
+
+    <p>My name is Isley Vaughn, and this is for MIS310.</p>
