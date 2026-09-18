@@ -1,17 +1,20 @@
 
-h1{color:#0f6464;
+h1{
+    color:#0f6464;
     font-family:"Franklin Gothic Medium";
-    font: size 5px;
+    font-size: 32px;
 }
 
-h2{color:#0c6666;
+h2{
+    color:#0c6666;
     font-family:"Franklin Gothic Medium";
-    font: size 3px;
+    font-size: 24px;
 }
 
-h3{color:#b97e26;
+h3{
+    color:#b97e26;
     font-family:"Franklin Gothic Medium";
-    font-size:2px;
+    font-size:18px;
 }
 
 .about_main_header{
