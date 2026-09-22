@@ -1,6 +1,13 @@
 body {
-background-color: linear-gradient( #f7f0d4 0%, #fffaf0 50%, #e9f0e7 100%);
+background-color: #f7edc5;
   /*background-image: url(images/BackdropYellowSalmon.jpeg);*/
+}
+
+.About_Backdrop{
+    background-color: #fffae4;
+    border-color:#b97e26;
+    margin: 20px;
+    padding: 15px;
 }
 
 h1,h2,h3{
@@ -76,7 +83,13 @@ h3{
         margin-right: auto;
 
 }
+
+.about_nav_link{
+     margin-bottom: 5px;
+     font-style: bold;
+
+}
+
 .about-creator {
     padding-bottom: 32px;
 }
-
