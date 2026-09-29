@@ -67,18 +67,20 @@ h3{
 .about_main_header{
         text-align: center;
         color: #540B0E;
-        font-family:"Berlin Sans FB Regular";
+        font-family:"Verdana Bold";
         font-size: 30px;
 }
 
 .about_mission_statement{
         text-align: center;
         color: #381112;
-        font-family:"Berlin Sans FB Regular";
+        font-family:"Verdana";
         font-size: 20px;
         width: 80%;
         max-width: 700px;
         background-color:#fffaf0;
+        border: 3px solid #b97e26;
+        padding: 5px;
         margin-left: auto;
         margin-right: auto;
 
@@ -86,6 +88,7 @@ h3{
 
 .about_nav_link{
      margin-bottom: 5px;
+     font-family:"Verdana";
      font-style: bold;
 
 }
