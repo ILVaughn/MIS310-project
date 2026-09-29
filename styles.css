@@ -66,10 +66,22 @@ h3{
 }
 
 .about_main_header{
-        text-align: center;
+        text-align: left;
         color: #540B0E;
         font-family:"Verdana Bold";
-        font-size: 30px;
+        font-size: 48px;
+        margin-left: 10px;
+        padding: 10px;
+}
+.about_mission_text{
+    color:#0d1818;
+    text-align: center;
+    font-family:"Georgia";
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    line-height: 1.5;
 }
 
 .about_mission_statement{
@@ -78,6 +90,7 @@ h3{
         font-family:"Verdana";
         font-size: 20px;
         width: 80%;
+        margin: 0 auto;
         max-width: 700px;
         padding: 5px;
 
@@ -86,7 +99,10 @@ h3{
 .Backdrop_Mission_Statement {
     background-color: #fffae4;
     border: 3px solid #b97e26;
-    margin: 40px;
+    margin-left: 132px;
+    margin-right: 132px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 10px;
 }
 
