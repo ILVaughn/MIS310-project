@@ -10,7 +10,7 @@ background-color: #f7edc5;
     padding: 10px;
 }
 
-h1,h2,h3{
+h1{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 25px;
@@ -49,6 +49,7 @@ h2{
     color:#4F6464;
     font-family:"Franklin Gothic Medium";
     font-size: 28px;
+    margins: 10px;
 
 }
 
@@ -85,7 +86,7 @@ h3{
 .Backdrop_Mission_Statement {
     background-color: #fffae4;
     border: 3px solid #b97e26;
-    margin: 15px;
+    margin: 40px;
     padding: 10px;
 }
 
