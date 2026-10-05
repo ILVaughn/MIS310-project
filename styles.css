@@ -1,6 +1,9 @@
 body {
 /*background-color: #f7edc5;*/
 background-image: url(images/blue-tan-plaid.jpeg);
+background-size:100% auto;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 .Backdrop {
@@ -43,6 +46,7 @@ p{
     padding: 16px;
     line-height: 1.5;
 }
+
 
 
 h2{
@@ -126,6 +130,8 @@ h3{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+
 }
 
 }
