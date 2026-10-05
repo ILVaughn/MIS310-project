@@ -69,8 +69,38 @@ h3{
 
 .image_container {
     display: flex;
-    justify-content: center;
+    justify-content:left;
 }
+
+
+
+.about_flexbox_container {
+  display: flex;
+  background-color: peachpuff;
+  backgorund-border: 2px solid #b97e26;
+  padding: 20px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.profile_image {
+    width: max(350px, 20%);
+    height: auto;
+
+
+}
+
+.about_creator_textblock {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+
+
+
+
 
 
 .home_header_1{
@@ -142,6 +172,3 @@ h3{
 
 }
 
-.about-creator {
-    padding-bottom: 32px;
-}
