@@ -115,6 +115,27 @@ h3{
   gap: 32px;
 }
 
+.about_flexbox_WhatYouFind {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border: 2px solid #4F6464;
+}
+
+
+.about_flexbox_WhatYouFind_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background-color: #fffdf2;
+}
+
 .profile_image {
     width: max(350px, 20%);
     height: auto;
@@ -131,13 +152,15 @@ h3{
 }
 
 
-
-
-
-
 .home_header_1{
      color: #333333;
      font-size: 28px;
+}
+
+.home_sub_head1{
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
 }
 
 .about_main_header{
@@ -164,7 +187,7 @@ h3{
     text-align: center;
     background-color: peachpuff;
     font-family:"Verdana";
-    font-size: 20px;
+    font-size: 35px;
     width: 80%;
     margin: 0 auto;
     max-width: 700px;
