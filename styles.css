@@ -115,32 +115,10 @@ h3{
   gap: 32px;
 }
 
-.about_flexbox_WhatYouFind {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  padding: 20px;
-  border: 2px solid #4F6464;
-}
-
-
-.about_flexbox_WhatYouFind_cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  padding: 20px;
-  background-color: #fffdf2;
-}
-
 .profile_image {
     width: max(350px, 20%);
     height: auto;
     border: 3px solid #381112;
-
 
 }
 
@@ -206,18 +184,27 @@ h3{
 }
 
 .about_nav{
+    display: flex;
     margin-top: 5px;
     margin-bottom: 20px;
-
+    justify-content: space-between;
+}
 
 .about_nav_ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    justify-content: space-between;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    line-height: 50px;
 
 }
+nav a:hover {
+    background-color: #b97e26;
+    color: white;
 
 }
 .about_nav_link{
