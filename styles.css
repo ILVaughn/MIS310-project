@@ -193,24 +193,32 @@ h3{
 .about_nav_ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     height: 50px;
-    width: 150px;
-    text-align: center;
+    width: 100%;
     list-style: none;
     padding: 0;
+    margin: 0;
     line-height: 50px;
 
 }
-nav a:hover {
-    background-color: #b97e26;
-    color: white;
+
+.about_nav_link{
+    margin-bottom: 5px;
+    font-family:"Verdana";
+    font-weight: bold;
+    border: 2px solid #4F6464;
+    background-color: #8fbec0;
 
 }
-.about_nav_link{
-     margin-bottom: 5px;
-     font-family:"Verdana";
-     font-weight: bold;
 
+.about_nav_link:hover {
+    display:block;
+    padding: 10px;
+    border: 2px solid #e4d6c2;
+    background-color: #b97e26;
+    color: #e4d6c2;
 }
 
