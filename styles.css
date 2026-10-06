@@ -1,8 +1,8 @@
 body {
 /*background-color: #f7edc5;*/
 background-image: url(images/blue-tan-plaid.jpeg);
-background-size:100% auto;
-background-repeat: no-repeat;
+background-size: auto;
+background-repeat: repeat;
 background-position: center;
 }
 
@@ -69,7 +69,8 @@ h3{
 
 .image_container {
     display: flex;
-    justify-content:left;
+    justify-content:center;
+    border: 2px solid #b97e26;
 }
 
 
@@ -87,6 +88,7 @@ h3{
 .profile_image {
     width: max(350px, 20%);
     height: auto;
+    border: 3px, #381112;
 
 
 }
@@ -130,7 +132,8 @@ h3{
 
 .about_mission_statement{
     text-align: center;
-    color: #381112;
+    background-color: peachpuff;
+    border: 2px solid #b97e26;
     font-family:"Verdana";
     font-size: 20px;
     width: 80%;
@@ -141,7 +144,7 @@ h3{
 }
 
 .Backdrop_Mission_Statement {
-    background-color: #fffae4;
+    background-color:peachpuff;
     border: 3px solid #b97e26;
     margin-left: 200px;
     margin-right: 200px;
