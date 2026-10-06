@@ -194,8 +194,8 @@ h3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 12px;
     height: 50px;
     width: 100%;
     list-style: none;
@@ -216,9 +216,10 @@ h3{
 .about_nav_link a {
     display: flex;
     text-decoration: none;
-    color: #4F6464;
+    color: #dde9e9;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .about_nav_link:hover {
