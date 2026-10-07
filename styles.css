@@ -14,17 +14,21 @@ background-position: center;
 }
 
 h1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-h1{
     color:#0f6464;
     font-family:"Franklin Gothic Medium";
     font-size: 32px;
     text-align: center;
+    margin: 20px;
+}
+
+.blue_bold {
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    color: #0f6464;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    line-height: 1.5;
 }
 
 hr {
@@ -43,10 +47,9 @@ p{
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 16px;
+    padding: 8px;
     line-height: 1.5;
 }
-
 
 
 h2{
@@ -68,7 +71,9 @@ h3{
 }
 
 .image_container {
-    display: flex;
+    display: block;
+    max-width: 100%;
+    height: auto;
     justify-content:center;
     border: 2px solid #b97e26;
 }
@@ -194,12 +199,10 @@ h3{
 
 .about_nav_ul{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 12px;
-    height: 50px;
     width: 100%;
     list-style: none;
     padding: 10px;
