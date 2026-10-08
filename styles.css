@@ -201,6 +201,13 @@ h3{
     justify-content: space-between;
 }
 
+@media (max-width: 500px) {
+    .about_nav_link {
+        flex-direction: column;
+    }
+}
+
+
 .about_nav_ul{
     display: flex;
     flex-wrap: wrap;
