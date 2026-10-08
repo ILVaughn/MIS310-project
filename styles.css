@@ -202,7 +202,7 @@ h3{
     padding: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
     .Backdrop_Mission_Statement {
         margin-left: 16px;
         margin-right: 16px;
