@@ -140,12 +140,16 @@ h3{
 .home_header_1{
      color: #333333;
      font-size: 28px;
+     margin-top: 5px;
+     margin-bottom: 5px;
 }
 
 .home_sub_head1{
     color: #333333;
     font-size: 20px;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .about_main_header{
@@ -216,6 +220,7 @@ h3{
     font-weight: bold;
     border: 2px solid #4F6464;
     background-color: #8fbec0;
+    align-items: center;
 }
 
 .about_nav_link a {
