@@ -17,8 +17,49 @@ background-position: center;
     .Backdrop {
         margin: 20px;
         padding: 10px;
+    
     }
 }
+
+@media (max-width: 500px) {
+    .BuildGuide_Backdrop {
+        margin: 20px;
+        padding: 10px;
+    
+    }
+}
+
+.BuildGuide_Backdrop {
+    background-color: #fffae4;
+    border: 3px solid #b97e26;
+    margin: 50px;
+    padding: 15px;
+}
+
+#Build_Guide_Backdrop {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+#BuildGuide_Section_1 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    
+}
+
+.BuildGuide_Section_1 {
+    color:#381112;
+    font-family:"Franklin Gothic Medium";
+    font-size: 20px;
+    background-color: peachpuff;
+    margin-10px;
+    padding: 10px;
+    
+}
+
 
 h1{
     color:#0f6464;
@@ -26,6 +67,7 @@ h1{
     font-size: 32px;
     text-align: center;
     margin: 20px;
+    margin-bottom: 10px;
 }
 
 .blue_bold {
