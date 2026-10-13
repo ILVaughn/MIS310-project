@@ -36,13 +36,13 @@ background-position: center;
     padding: 15px;
 }
 
-#Build_Guide_Backdrop {
+.Build_Guide_Backdrop {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 
-#BuildGuide_Section_1 {
+.BuildGuide_Section_1 {
     grid-column-start: 1;
     grid-column-end: span 4;
     grid-row-start: 1;
@@ -55,7 +55,7 @@ background-position: center;
     font-family:"Franklin Gothic Medium";
     font-size: 20px;
     background-color: peachpuff;
-    margin-10px;
+    margin: 10px;
     padding: 10px;
     
 }
