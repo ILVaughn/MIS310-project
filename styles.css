@@ -32,11 +32,11 @@ background-position: center;
 .BuildGuide_Grid {
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
-    background-color: #fffae4;
-    border: 3px solid #b97e26;
+    background-color: #abbbbd;
+    border: 2px ; border-color: #8fbec0;
     gap: 15px;
     margin: 50px;
-    padding: 15px;
+    padding: 5px;
     display: grid;
     align-items: start;
 
