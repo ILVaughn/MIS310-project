@@ -85,12 +85,14 @@ background-position: center;
 }
 
 h1{
-    color:#0f6464;
-    font-family:"Franklin Gothic Medium";
-    font-size: 32px;
+    color: #062B44;
+    font-family: "Cavalier Bold",'Courier New', Courier;
+    font-size: 50px;
     text-align: center;
     margin: 20px;
     margin-bottom: 10px;
+    padding: 40px 0px;
+    text-shadow: 2px #AEB7C4;
 }
 
 .blue_bold {
