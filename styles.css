@@ -85,6 +85,15 @@ background-position: center;
     
 }
 
+@media (max-width: 500px) {
+    .BuildGuide_Grid {
+        grid-template-columns: minmax(0,1fr);
+        gap: 16px;
+        margin: 20px;
+        padding: 12px;
+    }
+}
+
 h1{
     color: #062B44;
     font-family: "Cavalier Bold", "Encoded Sans Semi Condesned", "Franklin Gothic Medium";
