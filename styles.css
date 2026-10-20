@@ -234,7 +234,9 @@ h3{
 
 .home_header_1{
     color: #062B44;
-    font-family: "Bahnschrift Semibold Semicondensed";
+    font-family: 'Bahnschrift Semibold', 'Franklin Gothic Medium', sans-serif;
+    font-weight: bold;
+    font-stretch: semi-condensed;
     font-size: 50px;
     text-align: center;
     margin: 25px;
