@@ -30,16 +30,15 @@ background-position: center;
 }
 
 .BuildGuide_Grid {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-rows: auto;
     background-color: #abbbbd;
     border: 2px ; border-color: #8fbec0;
-    gap: 15px;
+    gap: 24px;
     margin: 50px;
-    padding: 5px;
-    display: grid;
-    align-items: start;
-
+    padding: 16px;
+    box-sizing: border-box;
 
 }
 
@@ -58,7 +57,7 @@ background-position: center;
 }
 
 .BuildGuide_Section_2 {
-   grid-column: 1 /-1;
+   grid-column: 1;
    grid-row: 2;
 
 }
@@ -70,6 +69,7 @@ background-position: center;
     max-width: 600px;
     max-height: 480px;
     height: auto;
+    object-fit: cover;
 }
 
 
@@ -79,8 +79,9 @@ background-position: center;
     font-family:"Franklin Gothic Medium";
     font-size: 20px;
     background-color: peachpuff;
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
+    box-sizing: border-box;
     
 }
 
