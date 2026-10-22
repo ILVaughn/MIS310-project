@@ -87,27 +87,53 @@ background-position: center;
     
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .BuildGuide_Grid {
-        grid-template-columns: minmax(0,1fr);
+        grid-template-columns: minmax(0, 1fr);
         gap: 16px;
         margin: 20px;
         padding: 12px;
         min-width: 0;
+        background-color: #d8c6dc;
     }
-    .BuildGuide_Section1, 
-    .BuildGuide_Section2 {
+
+    .BuildGuide_Section_1,
+    .BuildGuide_Section_2 {
         grid-column: 1;
         grid-row: auto;
         width: 100%;
         min-width: 0;
-    }
-    .BuildGuide_Image1,
-    .BuildGuide_Image2 {
-        grid-column: 1;
-        grid-row: auto;
+        margin: 0;
+        padding: 18px;
+        overflow-wrap: anywhere;
+        box-sizing: border-box;
     }
 
+    .BuildGuide_Section_1 {
+        background-color: #6d4c7d;
+    }
+
+    .BuildGuide_Section_2 {
+        background-color: #9a79a8;
+    }
+
+    .BuildGuide_Grid h1 {
+        font-size: 28px;
+        line-height: 1.15;
+        margin: 0 0 12px;
+    }
+
+    .BuildGuide_Grid p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+
+    .BuildGuide_Image1,
+    .BuildGuide_Image2 {
+        display: none;
+    }
 }
 
 h1{
