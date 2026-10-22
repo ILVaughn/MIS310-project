@@ -36,7 +36,10 @@ background-position: center;
     background-color: #abbbbd;
     border: 2px ; border-color: #8fbec0;
     gap: 24px;
-    margin: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
     padding: 16px;
     box-sizing: border-box;
 
