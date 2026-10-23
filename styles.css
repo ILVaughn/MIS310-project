@@ -87,7 +87,7 @@ background-position: center;
     
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .BuildGuide_Grid {
         grid-template-columns: minmax(0, 1fr);
         gap: 16px;
@@ -207,7 +207,7 @@ h3{
     flex-direction: row;
     justify-content:center;
     align-items:center;
-    background-color: peachpuff;
+    background-color: #e4d6c2;
     margin: 20px;
     gap: 20px;
     flex-wrap: wrap;
@@ -227,7 +227,7 @@ h3{
 .about_flexbox_container {
   display: flex;
   flex-wrap: wrap;
-  background-color: peachpuff;
+  background-color: #e4d6c2;
   border: 2px solid #b97e26;
   padding: 20px;
   flex-direction: row;
@@ -295,7 +295,7 @@ h3{
 
 .about_mission_statement{
     text-align: center;
-    background-color: peachpuff;
+    background-color: #e4d6c2;
     font-family:"Verdana";
     font-size: 35px;
     width: 80%;
@@ -306,7 +306,7 @@ h3{
 }
 
 .Backdrop_Mission_Statement {
-    background-color:peachpuff;
+    background-color:#e4d6c2;
     border: 3px solid #b97e26;
     margin-left: 200px;
     margin-right: 200px;
