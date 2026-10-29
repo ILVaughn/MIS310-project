@@ -215,7 +215,7 @@ ul li{
 }
 
 .image_container {
-    display: block;
+    display: grid;
     max-width: 100%;
     height: auto;
     justify-content:center;
@@ -263,6 +263,7 @@ ul li{
   flex-direction: row;
   align-items: flex-start;
   gap: 32px;
+  justify-content: center;
 }
 
 .profile_image {
@@ -338,8 +339,8 @@ ul li{
 .Backdrop_Mission_Statement {
     background-color: peachpuff;
     border: 3px solid #b97e26;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 40px;
     margin-bottom: 20px;
     padding: 10px;
