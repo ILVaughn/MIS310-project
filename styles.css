@@ -4,6 +4,7 @@ background-image: url(images/blue-tan-plaid.jpeg);
 background-size: auto;
 background-repeat: repeat;
 background-position: center;
+margin: 0px;
 }
 
 .Backdrop {
@@ -169,18 +170,21 @@ hr {
 }
 
 .hr_end_bar {
+    display: block;
     height: 35px;
     width: 100%;
     margin-bottom: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px;
     border: 0px;
-    color: #335667;
+    color: #192742;
 }
 
 .lighter_blue_backdrop {
-    background-color: #AEB7C4;
+    background-color: #466577;
     width: 100%;
 }
 .lighter_blue_backdrop .about_nav_ul {
+    background-color: transparent;
+    margin: 0px;
     background-color: transparent;
 }
 
@@ -387,7 +391,7 @@ ul li{
 .about_nav{
     display: flex;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     justify-content: space-between;
 }
 
@@ -422,7 +426,7 @@ ul li{
     justify-content: center;
 }
 
-.about_nav_link a {
+.about_nav_link a:focus {
     display: flex;
     text-decoration: none;
     color: #faffff;
@@ -430,6 +434,7 @@ ul li{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border: 3px solid #b97e26;
 }
 
 .about_nav_link:hover {
