@@ -169,12 +169,13 @@ hr {
 }
 
 .hr_end_bar {
-    height: 10px;
+    height: 35px;
     width: 100%;
-    margin-bottom: 0;
-    border: 0;
-    color: darkslategray;
+    margin-bottom: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px;
+    border: 0px;
+    color: #335667;
 }
+
 .lighter_blue_backdrop {
     background-color: #AEB7C4;
     width: 100%;
@@ -182,7 +183,6 @@ hr {
 .lighter_blue_backdrop .about_nav_ul {
     background-color: transparent;
 }
-
 
 p{
     color:#0d1818;
@@ -212,7 +212,7 @@ h3{
 }
 
 ul{
-    display: flex;
+    display: block;
     list-style-type: none;
     margin: 1em auto;
     color: #0d1818;
@@ -223,7 +223,7 @@ ul{
     padding: 10px;
     unicode-bidi: isolate;
     text-align: left;
-    background-color: #e4d6c2
+    background-color: palegoldenrod;
 }
 
 ul li{
@@ -416,6 +416,7 @@ ul li{
     margin: 0;
     font-family:"Verdana";
     font-weight: bold;
+    border-radius: 8px;
     border: 2px solid #4F6464;
     background-color: #8fbec0;
     justify-content: center;
@@ -425,6 +426,7 @@ ul li{
     display: flex;
     text-decoration: none;
     color: #faffff;
+    border-radius: 8px; 
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -433,6 +435,7 @@ ul li{
 .about_nav_link:hover {
     background-color: #b97e26;
     color: #e4d6c2;
+    border-radius: 8px; 
     text-decoration: none;
 }
 
