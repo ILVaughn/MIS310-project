@@ -180,6 +180,10 @@ hr {
     background-color: #AEB7C4;
     width: 100%;
 }
+.lighter_blue_backdrop .about_nav_ul {
+    background-color: transparent;
+}
+
 
 p{
     color:#0d1818;
