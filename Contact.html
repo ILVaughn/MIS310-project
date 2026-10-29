@@ -14,17 +14,16 @@
       
 
     <h1>Contact and Feedback Form</h1>
-    <p>PLACEHOLDER TEXT</p>
 
     <form method="post" action="https://miswebapps.uncw.edu/mis310/form-submit.aspx">
       <p>
-        <label>Name:</label>
-        <input type="text" name="name" />     */Name/*
+        <label for= "name">Name:</label>
+        <input type="text" id = "name" name ="name" required>
       </p>
 
       <p>
-        <label>Email:</label>
-        <input type = "email" name = "Email"/>
+        <label for="email">Email:</label>
+        <input type ="email" id ="email" name = "email" required/>
       </p>
 
         <fieldset>
@@ -46,11 +45,11 @@
 
       <p>
         <label>Feedback and Comments</label>
-        <textarea id="Feedback or Comments"></textarea>  */Will need to edit later*/
+        <textarea id="comments" name= "comments" rows="10" cols="60"></textarea> 
       </p>
 
       <p>
-        <button>Submit</button>
+        <button>Submit Contact Form</button>
       </p>
 
     </form>
