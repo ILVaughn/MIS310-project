@@ -168,6 +168,19 @@ hr {
     border-top: 4px solid #4F6464;
 }
 
+.hr_end_bar {
+    height: 10px;
+    width: 100%;
+    margin-bottom: 0;
+    border: 0;
+    color: darkslategray;
+}
+
+.lighter_blue_backdrop {
+    background-color: #AEB7C4;
+    width: 100%;
+}
+
 p{
     color:#0d1818;
     font-family:"Georgia";
@@ -328,7 +341,8 @@ ul li{
     text-align: center;
     background-color:peachpuff;
     font-family:"Verdana";
-    font-size: 35px;
+    font-size: 25px;
+    margin-bottom:10px;
     width: 80%;
     margin: 0 auto;
     max-width: 700px;
@@ -384,7 +398,7 @@ ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #fffae4;
+    background-color: transparent;
     align-items: center;
     gap: 12px;
     width: 100%;
