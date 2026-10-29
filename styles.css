@@ -175,7 +175,6 @@ hr {
     border: 0;
     color: darkslategray;
 }
-
 .lighter_blue_backdrop {
     background-color: #AEB7C4;
     width: 100%;
@@ -213,7 +212,7 @@ h3{
 }
 
 ul{
-    display: block;
+    display: flex;
     list-style-type: none;
     margin: 1em auto;
     color: #0d1818;
@@ -224,7 +223,7 @@ ul{
     padding: 10px;
     unicode-bidi: isolate;
     text-align: left;
-    background-color: palegoldenrod;
+    background-color: #e4d6c2
 }
 
 ul li{
