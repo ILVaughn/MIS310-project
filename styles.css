@@ -33,8 +33,7 @@ background-position: center;
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
     grid-template-rows: auto;
-    background-color: #abbbbd;
-    border: 2px ; border-color: #8fbec0;
+    background-color: peachpuff;
     gap: 24px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -81,6 +80,7 @@ background-position: center;
     font-family:"Franklin Gothic Medium";
     font-size: 20px;
     background-color: peachpuff;
+    border: 5px solid #b97e26;
     margin: 0px;
     padding: 20px;
     box-sizing: border-box;
@@ -169,7 +169,7 @@ p{
 h2{
     color:#4F6464;
     font-family:"Franklin Gothic Medium";
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -182,19 +182,30 @@ h3{
     color:#b97e26;
     font-family:"Franklin Gothic Medium";
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
 
 }
 
 ul{
     display: block;
     list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin: 1em auto;
+    color: #0d1818;
+    font-family:Georgia;
+    font-size: 20px;
+    line-height: 1.5;
     padding-inline-start: 40px;
+    padding: 10px;
     unicode-bidi: isolate;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #faffff;
+    text-align: left;
+    background-color: palegoldenrod;
+}
+
+ul li{
+    margin-top: 12px;
 }
 
 .image_container {
@@ -260,6 +271,7 @@ ul{
     display: flex;
     flex: 1 350px;
     min-width: 0;
+    background-color: #e4d6c2;
     flex-direction: column;
     padding-bottom: 32px;
 }
@@ -308,7 +320,7 @@ ul{
 
 .about_mission_statement{
     text-align: center;
-    background-color: #e4d6c2;
+    background-color:peachpuff;
     font-family:"Verdana";
     font-size: 35px;
     width: 80%;
@@ -319,7 +331,7 @@ ul{
 }
 
 .Backdrop_Mission_Statement {
-    background-color:#e4d6c2;
+    background-color: peachpuff;
     border: 3px solid #b97e26;
     margin-left: 200px;
     margin-right: 200px;
@@ -366,6 +378,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: peachpuff;
     align-items: center;
     gap: 12px;
     width: 100%;
