@@ -6,7 +6,7 @@ background-size: auto;
 background-repeat: repeat;
 background-position: center;
 margin: 0px;
-height: 100vh; /*Takes up 100% of the viewport*/
+min-height: 100vh; /*Takes up 100% of the viewport*/
 }
 
 .Backdrop {
@@ -442,7 +442,7 @@ ul li{
 }
 
 .about_nav_link:hover {
-    background-color: #b97e26;
+    background-color: #8fbec0;
     color: #e4d6c2;
     border-radius: 8px; 
     text-decoration: none;
