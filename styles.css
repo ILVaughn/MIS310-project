@@ -425,8 +425,8 @@ ul li{
     font-family:"Verdana";
     font-weight: bold;
     border-radius: 8px;
-    border: 2px solid #4F6464;
-    background-color: #8fbec0;
+    border: 2px solid #b8e4e4;
+    background-color: #305975;
     justify-content: center;
 }
 
@@ -442,9 +442,8 @@ ul li{
 }
 
 .about_nav_link:hover {
-    background-color: #8fbec0;
-    color: #e4d6c2;
-    border-radius: 0px; 
+    background-color: #b97e26;
+    border-radius: 8px; 
     text-decoration: none;
 }
 
