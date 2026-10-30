@@ -444,7 +444,7 @@ ul li{
 .about_nav_link:hover {
     background-color: #8fbec0;
     color: #e4d6c2;
-    border-radius: 8px; 
+    border-radius: 0px; 
     text-decoration: none;
 }
 
