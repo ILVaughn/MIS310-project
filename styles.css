@@ -6,7 +6,7 @@ background-size: auto;
 background-repeat: repeat;
 background-position: center;
 margin: 0px;
-height: 100%;
+height: 100vh; /*Takes up 100% of the viewport*/
 }
 
 .Backdrop {
@@ -179,6 +179,7 @@ hr {
     margin-bottom: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px;
     border: 0px;
     color: #14223d;
+    background-color: #14223d;
 }
 
 .lighter_blue_backdrop {
@@ -429,7 +430,7 @@ ul li{
     justify-content: center;
 }
 
-.about_nav_link {
+.about_nav_link a{
     display: flex;
     text-decoration: none;
     color: #faffff;
