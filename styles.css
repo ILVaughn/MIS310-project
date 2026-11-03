@@ -239,7 +239,8 @@ ul li{
 }
 
 .image_container {
-    display: grid;
+    display: block;
+    margin-inline: auto;
     max-width: 100%;
     height: auto;
     justify-content:center;
