@@ -464,3 +464,12 @@ ul li{
     text-decoration: none;
 }
 
+/*JAVASCRIPT CSS**===================================*/
+#details {
+    display: none;
+}
+
+#details.visible {
+    display: block;
+}
+
