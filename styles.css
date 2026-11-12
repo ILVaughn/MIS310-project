@@ -1,3 +1,5 @@
+
+/*MAIN WEBSITE WIDE CSS*========================================================================================*/
 body {
 background-image: url(images/blue-tan-plaid.jpeg);
 display: flex;
@@ -32,6 +34,9 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
     
     }
 }
+
+
+/*BUILDING GUIDE GRID**========================================================================================*/
 
 .BuildGuide_Grid {
     display: grid;
@@ -158,6 +163,9 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
        display: none;
     }
 }
+
+/*HEADINGS, TEXT, PARAGRAPGHS GENERAL PROPERTIRES**=============================================================*/
+
 
 h1{
     color: #021c2e;
@@ -295,6 +303,9 @@ ul li{
     gap: 10px;
     text-align: center;
 }
+
+/*ABOUT PAGE FLEXBOX*=============================================================================*/
+
 
 .about_flexbox_container {
   display: flex;
