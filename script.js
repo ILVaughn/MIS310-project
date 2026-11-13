@@ -3,9 +3,10 @@ document.querySelector(".contentbox");
 
 console.log("Javascript connected to HTML file!");
 
-const button = document.querySelector("#details-button");
-const details = document.querySelector("#details");
 
-button.addEventListener("click", function () {
-    details.classList.toggle("visible");
-});
+/*VIDEO GRID JAVASCRIPT - SHOW/HIDE DETAILS*/
+const Video_Dropdown_Button = document.querySelector("#Video_Dropdown_Button");
+const Video_Collection = document.querySelector("#Video_Collection");
+    Video_Dropdown_Button.addEventListener("click", function () {
+        Video_Collection.classList.toggle("visible");
+    }); 
