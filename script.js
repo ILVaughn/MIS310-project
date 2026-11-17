@@ -16,3 +16,10 @@ if (Video_Dropdown_Button && Video_Collection) {
         console.log("Video collection visible:", Video_Collection.classList.contains("visible"));
 }); 
 }
+
+/*BOOTSTRAP AND JQUERY PRACTICE*/
+const msg = document.querySelector("#message");
+msg.textContent = "Hello!";
+/*This is the same as $("#message").text("Hello!"); in jQuery*/ 
+$("#message").text("Hello!");
+

@@ -15,8 +15,11 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
     flex: 1;
     background-color: #fffae4;
     border: 3px solid #b97e26;
-    margin: 50px;
+    margin: 32px auto;
+    max-width: 1200px;
     padding: 15px;
+    box-sizing: border-box;
+
 }
 
 @media (max-width: 500px) {
@@ -40,15 +43,13 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
 
 .BuildGuide_Grid {
     display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(minmax(0,1fr));
+    max-width: 1000px;
     grid-template-rows: auto;
     background-color: #AEB7C4;
     gap: 24px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 35px;
-    margin-right: 35px;
-    padding: 1px;
+    margin: 20px auto;
+    padding: 0px;
     box-sizing: border-box;
 
 }
@@ -104,7 +105,7 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
     background-color: peachpuff;
     border: 0px solid #b97e26;
     margin: 0px;
-    padding-top: 20px; padding-left: 30px; ;padding-bottom: 20px; padding-right: 30px;
+    padding: 20px;
     box-sizing: border-box;
     
 }
@@ -163,6 +164,13 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
     box-sizing: border-box;
 }
 
+ .BuildGuideGrid ul {
+    list-style:disc;
+    padding-left:0px; padding-right:0px;
+    padding-top:5px;
+    padding-bottom:20px;
+    background-color: rgb(234, 255, 252);
+}
 
 @media (max-width: 700px) {
     .BuildGuide_Grid {
@@ -190,12 +198,13 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
     .BuildGuide_Grid h1 {
         font-size: 22px;
         line-height: 1.15;
+        text-align: left;
     }
 
     .BuildGuide_Grid p {
-        font-size: 16px;
-        line-height: 1.15;
-        margin: 0;
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 12px auto;
         padding: 0;
     }
 
@@ -203,7 +212,15 @@ min-height: 100vh; /*Takes up 100% of the viewport*/
     .BuildGuide_Image2 {
        display: none;
     }
+    .BuildGuide_ul {
+        list-style:disc;
+        padding-left:0px; padding-right:0px;
+        padding-top:5px;
+        padding-bottom:20px;
+    }
 }
+
+
 
 /*HEADINGS, TEXT, PARAGRAPGHS GENERAL PROPERTIRES**=============================================================*/
 
@@ -222,9 +239,8 @@ h1{
     font-family: "Franklin Gothic Medium";
     font-size: 20px;
     color: #0f6464;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 8px;
+    margin-left: 10px;
+    margin: 20px;
     line-height: 1.5;
 }
 
@@ -265,6 +281,7 @@ p{
     margin-left: auto; margin-right: auto;
     padding: 8px;
     line-height: 1.5;
+    margin-top:10px;margin-bottom:10px;
 }
 
 
@@ -281,7 +298,7 @@ h3{
     color:#b97e26;
     font-family:"Franklin Gothic Medium";
     font-size: 20px;
-    margin-top: 20px; margin-bottom: 20px; margin-left: 10px; margin-right: 25px;
+    margin-top: 20px; margin-bottom: 10px; margin-left: 10px; margin-right: 25px;
 
 }
 
