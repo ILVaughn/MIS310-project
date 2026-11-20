@@ -17,26 +17,26 @@ if (Video_Dropdown_Button && Video_Collection) {
 }); 
 }
 
-/*BOOTSTRAP AND JQUERY PRACTICE*/
-const msg = document.querySelector("#message");
-msg.textContent = "Hello!";
+// /*BOOTSTRAP AND JQUERY PRACTICE*/
+// const msg = document.querySelector("#message");
+// msg.textContent = "Hello!";
 
 /*This is the same as $("#message").text("Hello!"); in jQuery*/ 
-$("#message").text("Hello!");
+// $("#message").text("Hello!");
 
 
 /*==================================================================*/
-/*JQUERY SHOW/HIDE*/
-$("#details-button").on("click", function() {
-   $("#details").toggle();
-});
-/*BUTTON FUNCTION WITH JS FROM LAST WEEK BUT WITH JQUERY, does the same thing as: */
-const button = document.querySelector("#details-button");
-const details = document.querySelector("#details");
+// /*JQUERY SHOW/HIDE*/
+// $("#details-button").on("click", function() {
+//    $("#details").toggle();
+// });
+// /*BUTTON FUNCTION WITH JS FROM LAST WEEK BUT WITH JQUERY, does the same thing as: */
+// const button = document.querySelector("#details-button");
+// const details = document.querySelector("#details");
 
-button.addEventListener("click", function () {
-    details.classList.toggle("visible");
-});
+// button.addEventListener("click", function () {
+//     details.classList.toggle("visible");
+// });
 
 /*=====================================================================*/
 /*RESOURCE TOGGLE BUTTONS
@@ -53,3 +53,4 @@ document.querySelectorAll(".resource_toggle").forEach(function (button) {
         );
     });
 });
+
