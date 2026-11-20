@@ -20,6 +20,36 @@ if (Video_Dropdown_Button && Video_Collection) {
 /*BOOTSTRAP AND JQUERY PRACTICE*/
 const msg = document.querySelector("#message");
 msg.textContent = "Hello!";
+
 /*This is the same as $("#message").text("Hello!"); in jQuery*/ 
 $("#message").text("Hello!");
 
+
+/*==================================================================*/
+/*JQUERY SHOW/HIDE*/
+$("#details-button").on("click", function() {
+   $("#details").toggle();
+});
+/*BUTTON FUNCTION WITH JS FROM LAST WEEK BUT WITH JQUERY, does the same thing as: */
+const button = document.querySelector("#details-button");
+const details = document.querySelector("#details");
+
+button.addEventListener("click", function () {
+    details.classList.toggle("visible");
+});
+
+/*=====================================================================*/
+/*RESOURCE TOGGLE BUTTONS
+/*=====================================================================*/
+
+document.querySelectorAll(".resource_toggle").forEach(function (button) {
+    const Resource_Collection = button.nextElementSibling;
+
+    button.addEventListener("click", function () {
+        Resource_Collection.classList.toggle("visible");
+        button.setAttribute(
+            "aria-expanded",
+            Resource_Collection.classList.contains("visible")
+        );
+    });
+});

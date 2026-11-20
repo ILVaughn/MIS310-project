@@ -4,27 +4,117 @@
     <meta charset="UTF-8">
     <title>Tools and Resources</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 <body>
     <main class="Backdrop">
 
-        <h1>Tools and Resources</h1>
-            <h2>Software and Guides</h2>
-                <p>Here you wil find a collection of useful applications, softwares, and external guides for creatives.</p>
-                <img>
-                <img class = "image_container" src="images/fachi-ersan1.png" alt= "An illustration of a person using a computer with various creative tools around them. Red, black and white color scheme." height="500" width="750">
-        <h1>Portfolio Platforms for Artists</h1>
-            <h2>Here are some of the widley used platforms for visual artists, modelers, photographers, and animators.</h2>
+    <div class = "Tools_Intro">
+        <h1 class="about_main_header">Tools and Resources</h1>
+        <p>The Building Guide focused on the process of creating a portfolio. This page provides additional tools, platforms, tutorials, 
+        and resources that can help you create projects, build your portfolio, and continue developing your creative skills.</p>
+        <img class = "image_container" src="images/fachi-ersan1.png" alt= "An illustration of a person using a computer with various creative tools around them." height="250" width="375">
 
-            <h2>Artstation</h2>
-                <p>Placeholder description</p>
-                <p><a href="https://www.artstation.com/?sort_by=community&dimension=all">ArtStation Community Page</a></p>
-            <h2>Adobe Portfolio</h2>
-                <p>Placeholder description</p>
-                <p><a href="https://portfolio.adobe.com/">Adobe Portfolio Page</a></p>
+    </div>
 
-        <h1>Video Guides and Tutorials</h1>
+/*====================================================================================================*/
+/*PORT PLATFORM RESOURCES*/
+/*===================================================================================================*/
+    <div class = Platform_Guide> 
+    <h1>Portfolio Platforms for Artists Resources</h1>
+        <h2>Artstation</h2>
+        <p>Placeholder description</p>
+        <p><a href="https://www.artstation.com/?sort_by=community&dimension=all">ArtStation Community Page</a></p>
+        <h2>Adobe Portfolio</h2>
+        <p>Placeholder description</p>
+        <p><a href="https://portfolio.adobe.com/">Adobe Portfolio Page</a></p>
+        <h2>Behance</h2>
+            <p>PLACEHOLDER CONTENT</p>
+        <h2>Wix</h2>
+            <p>PLACEHOLDER CONTENT</p>
+        <h2>Squarespace</h2>
+            <p>PLACEHOLDER CONTENT</p>
+    </div>
+/*====================================================================================================*/
+/*SOFTWARE RESOURCES*/
+/*===================================================================================================*/
+    <div>
+    <h1>Industry Software Resources</h1>
+        <div class = "software_item">
+            <h2>Adobe Photoshop</h2>
+            <p>PLACEHOLDER CONTENT</p>
+
+            <button class = "resource_toggle" type= "button"
+                    aria-expanded ="false"
+                    aria-controls="photoshop_resources">
+                Show/Hide Photoshop Resources
+             </button>
+            <div id="photoshop_resources" class="software_resources">
+                <ul>
+                    <li><a href="https://www.adobe.com/products/photoshop.html">Photoshop Adobe Page</a></li>
+                    <li><a href="https://www.adobe.com/learn/photoshop">Adobe Learn</a></li>
+                    <li>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/80434t3GTgA"
+                         ="Photoshop For Beginners: Easy Guide to Get Started!"
+                         frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class = "software_item">
+            <h2>Adobe Illustrator</h2>
+            <p>PLACEHOLDER CONTENT</p>
+
+            <button class="resource_toggle" type= "button"
+                        aria-expanded="false"
+                        aria-controls="illustrator_resources">
+                    Show/Hide Illustrator Resources
+                </button>
+                <div id="illustrator_resources" class="software_resources">
+                    <ul>
+                        <li><a href="#">Resource 1</a></li>
+                        <li><a href="#">Resource 2</a></li>
+                        <li>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/h7komjsQq50?start=11"
+                         ="Learn Adobe Illustrator 2025 in 1 Hour Beginners Full Crash Course"
+                         frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe></li>
+                    </ul>
+                </div>
+            </div> -->
+
+        
+        <h2>Adobe Premiere Pro</h2>
+            <p>PLACEHOLDER CONTENT</p>
+
+        <h2>Adobe After Effects</h2>
+            <p>PLACEHOLDER CONTENT</p>
+
+        <h2>Figma</h2>
+            <p>PLACEHOLDER CONTENT</p>
+
+        <h2>Canva</h2>
+            <p>PLACEHOLDER CONTENT</p>
+
+        <h2>Toon Boom Harmony</h2>
+            <p>PLACEHOLDER CONTENT</p>
+
+        <h2>Maya Autodesk</h2>
+        <p>PLACEHOLDER CONTENT</p>
+    </div>
+
+/*====================================================================================================*/
+/*VIDEO GUIDES COLLECTION*/
+/*===================================================================================================*/
+
+
+    <div class = "Video_Guides">
+        <h1>Video Guides Collection</h1>
         <button id="Video_Dropdown_Button" class="Video_Dropdown_Button" type="button">
         Show/Hide Video Guides and Tutorials
         </button>
@@ -55,8 +145,12 @@
             allowfullscreen>
             </iframe>
         </div>
-
+    </div> 
     </main>
+/*====================================================================================================*/
+/*NAV*/
+/*===================================================================================================*/
+
     <div class = "lighter_blue_backdrop">
         <h1>Navigation</h1>
         <nav class = "about_nav">
