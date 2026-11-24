@@ -595,6 +595,7 @@ ul li{
 }
 
 
+
 /*============================================================================*/
 /*CSS FOR RESOURCE TOGGLE BUTTONS*/
 /*=============================================================================*/
@@ -612,7 +613,59 @@ ul li{
 
 .software_resources.visible {
     display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 18px;
+    box-sizing: border-box;
+    border: 2px solid #b97e26;
+    background: #fffae4;
+    border-radius: 10px;
 }
+
+.software_resources ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px; padding: 0px; margin: 0px; 
+    list-style: none;
+    background-color: transparent;
+}
+.software_resources li {
+    margin: 0px; padding: 0x
+}
+.software_resources li a {
+    display: block;
+    padding-top: 12px; padding-bottom: 12px; padding-left: 14px; padding-right: 14px;
+    color: #305975; background-color: #fffae4;
+    border: 1px solid #b97e26;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+
+.software_resources li a: :hover,
+.software_resources li a: :focus-visible {
+    color: #fffae4;
+    background-color: #14223d;
+    border: #4F6464;
+}
+
+}
+.Video_Collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    gap: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 3px solid #b97e26;
+}
+
 
 .resource_toggle {
     padding: 10px 14px;
@@ -626,4 +679,24 @@ ul li{
 .resource_toggle:hover,
 .resource_toggle[aria-expanded="true"] {
     background-color: #b97e26;
+}
+
+.Video_Dropdown_Button {
+    padding: 10px 14px;
+    border: 3px solid #8fbec0;
+    border-radius: 8px;
+    background-color: #305975;
+    color: #faffff;
+    cursor: pointer;
+}
+.Video_Dropdown_Button:hover {
+    background-color: #b97e26;
+
+}
+
+.Video_Collection iframe {
+    display: block;
+    height: auto;
+    border: 2px solid #8fbec0;
+    border-radius: 5px;
 }
